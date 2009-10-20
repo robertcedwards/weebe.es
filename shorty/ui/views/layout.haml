@@ -1,0 +1,18 @@
+!!!
+!!! xml
+%html
+  %head
+    %title shorty
+    %link{:href=>'/stylesheet.css',:rel=>'stylesheet',:type=>'text/css'}
+    %script{:type=>'text/javascript',:src=>'/jquery.js'}
+  %body
+    .wrapper.outter
+      #header
+        .wrapper.inner
+          %h1 shorty
+          %h2 A tiny URL shortner
+      #main
+        .wrapper.inner
+          =yield
+      #footer
+        .wrapper.inner
