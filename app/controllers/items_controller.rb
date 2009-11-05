@@ -57,10 +57,7 @@ class ItemsController < ApplicationController
         return
       end
 
-      if url.length < ("http://".length + @host.length + 1 + Item::SHORT_URL_LENGTH)
-        render_error "items/short"
-        return
-      end
+
       
       @item = Item.find_by_original(url)
       if not @item
