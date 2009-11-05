@@ -1,4 +1,4 @@
-body { background-color: #fff; color: #333; }
+body { background-image:'/images/bg.gif';background-repeat:no-repeat;background-postion:top left; background-color: #fff; color: #333; }
 
 body, p, ol, ul, td, input {
   font-family: helvetica, arial, sans-serif;

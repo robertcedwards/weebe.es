@@ -16,23 +16,9 @@
 
 <hr />
 
-<p><strong>Bookmarklet for your browser:</strong> <%= link_to "shorten with cortito", "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> (drag and drop on your bookmark toolbar)</p>
-
-<p><strong>API:</strong> Send a POST or GET request to <tt><%= @host %></tt> with a "url" parameter, with either an "Accept: application/javascript" or "Accept: text/xml" header. You'll get a simple text response with the shortened URL:</p>
-
-<pre>$ curl --request GET --header "Accept: application/javascript" http://url.akosma.com/\?url=http://kosmaczewski.net/2008/08/11/saving-a-failing-project/
-http://url.akosma.com/blzrur
-$ _</pre>
-
-You can also send a "reverse" parameter with the shortened key (not the whole URL, just the key) and you'll get the original URL in return:
-
-<pre>$ curl --request GET --header "Accept: text/xml" http://url.akosma.com/\?reverse=blzrur
-http://kosmaczewski.net/2008/08/11/saving-a-failing-project/
-$ _</pre>
+<p><strong>Bookmarklet for your browser:</strong> <%= link_to "shorten with weebe.es", "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> (drag and drop on your bookmark toolbar)</p>
 
 <hr />
-
 <p>Powered by <a href="http://akosma.com">akosma software</a>&apos;s <a href="http://github.com/akosma/cortito/">cortito <%= CORTITO_VERSION %></a></p>
-
 </body>
 </html>
