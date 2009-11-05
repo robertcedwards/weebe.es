@@ -1,0 +1,34 @@
+<%= render :partial => "form" %>
+
+<p><%= link_to @short_url, @short_url, :class => "shortened" %> now redirects to <%= link_to @item.original, @item.original %></p>
+
+<p><strong>Share in Twitter: </strong><%= link_to "Website", @twitter_url, :class => "shortened" %>, 
+    <%= link_to "Echofon (Mac)", @echofon_url, :class => "shortened" %></p>
+
+<p><%= link_to "Send via e-mail", @email_url, :class => "shortened" %></p>
+
+<p><strong>Copy to clipboard:</strong> <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+              width="165"
+              height="21"
+              class="clippy"
+              id="clippy" >
+      <param name="movie" value="/flash/clipboard.swf"/>
+      <param name="allowScriptAccess" value="always" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param NAME="FlashVars" value="text=<%= @short_url %>">
+      <param name="bgcolor" value="#FFFFFF">
+      <param name="wmode" value="opaque">
+      <embed src="/flash/clipboard.swf"
+             width="165"
+             height="21"
+             name="clippy"
+             quality="high"
+             allowScriptAccess="always"
+             type="application/x-shockwave-flash"
+             pluginspage="http://www.macromedia.com/go/getflashplayer"
+             FlashVars="text=<%= @short_url %>"
+             bgcolor="#FFFFFF"
+             wmode="opaque"
+      />
+      </object></p>
