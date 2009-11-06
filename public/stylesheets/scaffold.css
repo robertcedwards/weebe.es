@@ -118,7 +118,7 @@ position: relative;   /* positions content on top of distance */
 text-align: left;     /* horizontal centering hack for IE */
 height: 23em;         /* required - desired height */
 width: 40em;          /* required - desired width */
-margin: 0 auto;       /* required */
+margin: 50px auto;       /* required */
 clear: left;
 }
 #distance { 
