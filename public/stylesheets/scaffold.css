@@ -79,7 +79,7 @@ form input.forminput {
   list-style: square;
 }
 h1 {
-font: normal 2.2em Georgia, "Times New Roman", Times, serif;
+font: normal 2.0em Georgia, "Times New Roman", Times, serif;
 margin: 0 0 20px;
 padding: 10px 0;
 font-weight: normal;
@@ -92,7 +92,7 @@ font-weight: bold;
 
 }
 h1 small {
-font-size: 0.95em;
+font-size: 0.55em;
 text-transform: uppercase;
 color: #999;
 font-family: Arial, Helvetica, sans-serif;
