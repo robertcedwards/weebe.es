@@ -7,6 +7,7 @@ body, p, ol, ul, td, input {
   text-align: center;
 }
 #wrapper {
+background: url(/images/transpBlack.png);
 text-align:left; /* reset text alignment */
 width:960px; /* or a percentage, or whatever */
 margin:0 auto; /* for the rest */
