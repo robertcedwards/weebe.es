@@ -123,7 +123,7 @@ margin: 0 auto;       /* required */
 clear: left;
 }
 #distance { 
-	margin-bottom: -5em; /* half of content height */
+ /* half of content height */
 	background: red;      /* temporary - used to see div */
 	width: 1px;           /* required to "hide" distance div */
 	height: 25%;          /* required */
