@@ -16,8 +16,9 @@
 <%= yield %>
 </div>
 <div id="info">
-Bookmarklet for your browser: <%= link_to image_tag("bookmarklet.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> &uarr;
+<p>Bookmarklet for your browser: <%= link_to image_tag("bookmarklet.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> &uarr;
 (drag and drop to your toolbar)&uarr;
+</p>
 </div>	
 <div id="poweredby">Powered by <a href="http://akosma.com">akosma software</a>&apos; <a href="http://github.com/akosma/cortito/">cortito <%= CORTITO_VERSION %></a>
 </div>
