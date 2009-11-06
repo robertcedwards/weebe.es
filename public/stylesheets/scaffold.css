@@ -1,11 +1,11 @@
-body { background:url('/images/bg.gif') no-repeat top left}
+body { background:url('/images/bg.png') no-repeat top left}
 
 body, p, ol, ul, td, input {
   font-family: helvetica, arial, sans-serif;
   font-size:   18px;
   line-height: 24px;
   margin-top: 15px;
-  margin-left: 145px;
+  margin-left: 155px;
 }
 
 pre {
