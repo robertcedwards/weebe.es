@@ -75,4 +75,17 @@ form input.forminput {
   font-size: 12px;
   list-style: square;
 }
+#info {
+	background: url(/images/transpBlack.png);
+	padding: 20px 0 20px 0;
+	position: relative;
+	top: 250px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	z-index: 6000;
+	
+}
 
