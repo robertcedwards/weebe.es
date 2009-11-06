@@ -117,13 +117,13 @@ display: block; /*--Keeps the small tag on its own line--*/
 background: url(/images/transpYellow.png);
 position: relative;   /* positions content on top of distance */
 text-align: left;     /* horizontal centering hack for IE */
-height: 100%;         /* required - desired height */
+height: 30em;         /* required - desired height */
 width: 40em;          /* required - desired width */
 margin: 0 auto;       /* required */
 clear: left;
 }
 #distance { 
- /* half of content height */
+	margin-bottom: -5em; /* half of content height */
 	background: red;      /* temporary - used to see div */
 	width: 1px;           /* required to "hide" distance div */
 	height: 25%;          /* required */
