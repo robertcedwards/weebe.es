@@ -36,11 +36,13 @@ p.error {
 }
 
 label
-{
+{text-align:left;
+
   float: left;
 }
 
 form input.forminput {
+  text-align:left;
   width: 50%;
 }
 
