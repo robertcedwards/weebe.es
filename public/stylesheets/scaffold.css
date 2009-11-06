@@ -78,6 +78,27 @@ form input.forminput {
   font-size: 12px;
   list-style: square;
 }
+h1 {
+font: normal 5.2em Georgia, "Times New Roman", Times, serif;
+margin: 0 0 20px;
+padding: 10px 0;
+font-weight: normal;
+text-align: center;
+text-shadow: 1px 1px 1px #ccc; /*--Not supported by IE--*/
+}
+h1 span {
+color: #cc0000;
+font-weight: bold;
+
+}
+h1 small {
+font-size: 0.35em;
+text-transform: uppercase;
+color: #999;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: none;
+display: block; /*--Keeps the small tag on its own line--*/
+}
 #info {
 	background: url(/images/transpBlack.png);
 	padding: 20px 0 20px 0;
