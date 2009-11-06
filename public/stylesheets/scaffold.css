@@ -115,7 +115,7 @@ display: block; /*--Keeps the small tag on its own line--*/
 #poweredby {
 position: fixed; 
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 #wrapper {
 background: url(/images/transpYellow.png);
