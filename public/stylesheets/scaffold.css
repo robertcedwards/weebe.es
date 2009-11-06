@@ -8,7 +8,7 @@ body, p, ol, ul, td, input {
 }
 #wrapper {
 text-align:left; /* reset text alignment */
-width:748px; /* or a percentage, or whatever */
+width:960px; /* or a percentage, or whatever */
 margin:0 auto; /* for the rest */
 }
 
@@ -42,7 +42,7 @@ label
 }
 
 form input.forminput {
-  width: 60em;
+  width: 50%;
   margin-left: 2em;
 }
 
