@@ -79,7 +79,7 @@ form input.forminput {
   list-style: square;
 }
 h1 {
-font: normal 5.2em Georgia, "Times New Roman", Times, serif;
+font: normal 1.2em Georgia, "Times New Roman", Times, serif;
 margin: 0 0 20px;
 padding: 10px 0;
 font-weight: normal;
@@ -114,7 +114,7 @@ display: block; /*--Keeps the small tag on its own line--*/
 	
 }
 #wrapper {
-background: url(/images/transpBlack.png);
+background: url(/images/transpYellow.png);
 position: relative;   /* positions content on top of distance */
 text-align: left;     /* horizontal centering hack for IE */
 height: 20em;         /* required - desired height */
