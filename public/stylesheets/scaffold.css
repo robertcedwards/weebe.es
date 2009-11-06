@@ -112,7 +112,7 @@ display: block; /*--Keeps the small tag on its own line--*/
 	z-index: 6000;
 	
 }
-#info a{color: #fff; background-color:#000;}
+
 #wrapper {
 background: url(/images/transpYellow.png);
 position: relative;   /* positions content on top of distance */
