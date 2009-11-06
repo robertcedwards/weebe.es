@@ -1,17 +1,19 @@
-body { background:url('/images/bg.png') no-repeat top left}
+html, body { 
+text-align: center;
+height: 100%;
+}
+body {
+	background:url('/images/bg.png') no-repeat top left;
+	padding: 0;
+	margin: 0;
+}
 
 body, p, ol, ul, td, input {
   font-family: helvetica, arial, sans-serif;
   font-size:   18px;
   line-height: 24px;
-  text-align: center;
 }
-#wrapper {
-background: url(/images/transpBlack.png);
-text-align:left; /* reset text alignment */
-width:960px; /* or a percentage, or whatever */
-margin:0 auto; /* for the rest */
-}
+
 
 pre {
   background-color: #eee;
@@ -90,4 +92,20 @@ form input.forminput {
 	z-index: 6000;
 	
 }
+#wrapper {
+background: url(/images/transpBlack.png);
+position: relative;   /* positions content on top of distance */
+text-align: left;     /* horizontal centering hack for IE */
+height: 20em;         /* required - desired height */
+width: 40em;          /* required - desired width */
+margin: 0 auto;       /* required */
+clear: left;
+}
+#distance { 
+	margin-bottom: -10em; /* half of content height */
+	background: red;      /* temporary - used to see div */
+	width: 1px;           /* required to "hide" distance div */
+	height: 50%;          /* required */
+	float: left;          /* required */
 
+}
