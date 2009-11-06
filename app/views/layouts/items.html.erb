@@ -8,15 +8,13 @@
   <%= stylesheet_link_tag 'scaffold' %>
 </head>
 <body>
+ 
 <div id="distance"></div>
 <div id='wrapper'>
 <h1><span><a href="/">Weebe.es</a></span> The Social Link Shortener<small><a href="http://coactlab.com/blog"> By Coactlab</a></small>
 <h2>Share to  <a href="http://www.twitter.com/">Twitter</a>, <a href ="http://www.facebook.com">Facebook,</a> & <a href="http://www.facebook.com/advertising/?pages">Facebook Pages</a></h2>
-
 <%= yield %>
-
 </div>
-
 <div id="info">
 <p><strong>Bookmarklet for your browser:</strong> <%= link_to "shorten with weebe.es", "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> (drag and drop on your bookmark toolbar)
 Powered by <a href="http://akosma.com">akosma software</a>&apos;s <a href="http://github.com/akosma/cortito/">cortito <%= CORTITO_VERSION %></a>
