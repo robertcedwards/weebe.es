@@ -125,7 +125,7 @@ clear: left;
 	margin-bottom: -5em; /* half of content height */
 	background: red;      /* temporary - used to see div */
 	width: 1px;           /* required to "hide" distance div */
-	height: 25%;          /* required */
+	height: 50px;          /* required */
 	float: left;          /* required */
 
 }
