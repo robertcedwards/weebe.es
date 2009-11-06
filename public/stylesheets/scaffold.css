@@ -101,7 +101,6 @@ display: block; /*--Keeps the small tag on its own line--*/
 }
 #info {
 	background: url(/images/transpBlack.png);
-	padding: 20px 0 20px 0;
 	position: absolute;
 	top: 0px;
 	left: 0px;
