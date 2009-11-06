@@ -4,8 +4,12 @@ body, p, ol, ul, td, input {
   font-family: helvetica, arial, sans-serif;
   font-size:   18px;
   line-height: 24px;
-  padding-top: 15px;
-  padding-left: 175px;
+  text-align: center;
+}
+#wrapper {
+text-align:left; /* reset text alignment */
+width:748px; /* or a percentage, or whatever */
+margin:0 auto; /* for the rest */
 }
 
 pre {
