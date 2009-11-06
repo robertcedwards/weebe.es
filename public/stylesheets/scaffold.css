@@ -23,7 +23,7 @@ pre {
 
 a { color: #000; }
 a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+a:hover { color: #fff; background-color:#000; font-weight: bold }
 a.shortened { color: green; text-decoration: none; font-weight: bold;}
 a.shortened:hover { background-color: green; color: white;}
 
@@ -112,6 +112,7 @@ display: block; /*--Keeps the small tag on its own line--*/
 	z-index: 6000;
 	
 }
+#info a{color: #fff; background-color:#000;}
 #wrapper {
 background: url(/images/transpYellow.png);
 position: relative;   /* positions content on top of distance */
