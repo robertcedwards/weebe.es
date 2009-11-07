@@ -10,7 +10,7 @@
 <script type="text/javascript">function do_perm(){FB.Connect.showPermissionDialog("publish_stream",true);}</script>
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 
-<script type="text/javascript">function do_post(){FB.Connect.streamPublish('',null,[{'text':'Shared 122 times with weeb.es','href':'http://weebe.es/facebook'}],null,"Just used weebe.es",null,false,"91713273438");}</script>
+<script type="text/javascript">function do_post(){FB.Connect.streamPublish('',{'name':'<%= @short%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 times with weeb.es','href':'http://weebe.es/facebook'}],null,"Just used weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post(); return false;"><span>Post</span></a>
 
 <script type="text/javascript">
@@ -26,5 +26,4 @@ function callPublish(msg, attachment, action_link) {
     FB.Connect.streamPublish('', attachment, action_link);
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'this is the title','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
->
+<input type="button" onclick="callPublish('',{'name':'<%= @short%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]),"91713273438";return false;" value="Post to my page" />

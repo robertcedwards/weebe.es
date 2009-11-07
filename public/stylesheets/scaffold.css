@@ -125,6 +125,10 @@ height: 23em;         /* required - desired height */
 width: 40em;          /* required - desired width */
 margin: 50px auto;       /* required */
 clear: left;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #000;
+padding: 10px;
 }
 #distance { 
 	margin-bottom: -5em; /* half of content height */
