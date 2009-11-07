@@ -16,7 +16,7 @@
 <%= yield %>
 </div>
 <div id="info">
-<p>Bookmarklet for your browser: <%= link_to image_tag("weebees.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> &uarr;
+<p>Share weebe.es with your friends on Facebook<a name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php">Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>| Bookmarklet for your browser: <%= link_to image_tag("weebees.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> &uarr;
 (drag and drop to your toolbar to share from any site)
 </p>
 </div>	
