@@ -2,7 +2,7 @@
 
 <p><%= link_to @short_url, @short_url, :class => "shortened" %> now redirects to <%= link_to @item.original, @item.original %></p>
 
-<p><strong>Share in Twitter: </strong><%= link_to "Website", @twitter_url, :class => "shortened" %>, 
+<p><strong><%= link_to "Share link with Twitter: </strong>", @twitter_url, :class => "shortened" %>, 
 <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script><script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
 <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
@@ -21,11 +21,10 @@ function callPublish(msg, attachment, action_link) {
 }</script>
 
 <script type="text/javascript">
-function callPublish(msg, attachment, action_link) {
+function callPublish(msg, attachment, action_link,) {
   FB.ensureInit(function () {
-    FB.Connect.streamPublish('', attachment, action_link);
+    FB.Connect.streamPublish('', attachment, action_link,);
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Post to my page" />
 
-<input type="button" onclick="callPublish('',{'name':'<%= @item.shortened%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
+<input type="button" onclick="callPublish('',{'name':'<%= @item.shortened%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
