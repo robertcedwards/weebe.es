@@ -15,5 +15,5 @@
 
 
 
-<script type="text/javascript">function callPublish(){FB.Connect.streamPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
-<a href="#" class="button" onclick="callPublish(); return false;"><span>Post to Fan Page</span></a>
+<script type="text/javascript">function do_post(){FB.Connect.streamPublish('',[{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'}],[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
+<a href="#" class="button" onclick="do_post(); return false;"><span>Post to Fan Page</span></a>
