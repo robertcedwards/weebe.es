@@ -13,5 +13,18 @@
 <script type="text/javascript">function do_post(){FB.Connect.streamPublish('',null,[{'text':'Shared 122 times with weeb.es','href':'http://weebe.es/facebook'}],null,"Just used weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post(); return false;"><span>Post</span></a>
 
+<script type="text/javascript">
+function callPublish(msg, attachment, action_link) {
+  FB.ensureInit(function () {
+    FB.Connect.streamPublish('', attachment, action_link);
+  });
+}</script>
 
+<script type="text/javascript">
+function callPublish(msg, attachment, action_link) {
+  FB.ensureInit(function () {
+    FB.Connect.streamPublish('', attachment, action_link);
+  });
+}</script>
+<input type="button" onclick="callPublish('',{'name':'Shared with weebe.es','href':'<%= link_to @short_url, @short_url, :class => "shortened" %>','description':'Just share with weebe.es'},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
 
