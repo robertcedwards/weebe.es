@@ -2302,3 +2302,65 @@ Rendering template within layouts/items
 Rendering items/new
 Rendered items/_form (0.1ms)
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:25:00) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:25:08) [POST]
+  Parameters: {"url"=>"http://collaborationchronicles.com/contribution/oneminutewordpress/", "short"=>"asdasd"}
+
+ActiveRecord::StatementInvalid (Could not find table 'items'):
+  app/controllers/items_controller.rb:62:in `shorten'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (58.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:28:51) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:32:15) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:32:37) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.7ms)
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:33:44) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:34:05) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:34:11) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
