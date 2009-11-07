@@ -2,8 +2,9 @@
 
 <p><%= link_to @short_url, @short_url, :class => "shortened" %> now redirects to <%= link_to @item.original, @item.original %></p>
 
-<p><strong><%= link_to "Share link with Twitter: </strong>", @twitter_url, :class => "shortened" %>, 
-<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script><script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
+<p><strong><%= link_to "Share link with Twitter: </strong>", @twitter_url, :class => "shortened" %>,
+<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
+<script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
 <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
 <fb:name uid="loggedinuser" useyou="false" linked="true"></fb:name><br>
@@ -15,5 +16,5 @@
 
 
 
-<script type="text/javascript">function do_post(){FB.Connect.streamPublish('',[{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'}],[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
-<a href="#" class="button" onclick="do_post(); return false;"><span>Post to Fan Page</span></a>
+<script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',[{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'}],[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
+<a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to Fan Page</span></a>
