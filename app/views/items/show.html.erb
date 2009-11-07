@@ -10,7 +10,7 @@
 <script type="text/javascript">function do_perm(){FB.Connect.showPermissionDialog("publish_stream",true);}</script>
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 
-<script type="text/javascript">function do_post(){FB.Connect.streamPublish('',{'name':'<%= @short%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 times with weeb.es','href':'http://weebe.es/facebook'}],null,"Just used weebe.es",null,false,"91713273438");}</script>
+<script type="text/javascript">function do_post(){FB.Connect.streamPublish('',[{'name':'<%= @short%>','href':'<%= @short_url%>','description':'Just shared <%= @short%> using weebe.es'}],[{'text':'Shared 122 times with weeb.es','href':'http://weebe.es/facebook'}],null,"Just used weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post(); return false;"><span>Post</span></a>
 
 <script type="text/javascript">
