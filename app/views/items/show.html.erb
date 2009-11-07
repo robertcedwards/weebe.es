@@ -26,16 +26,5 @@ function callPublish(msg, attachment, action_link) {
     FB.Connect.streamPublish('', attachment, action_link);
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'this is the title','href':'this is the sharing url','description':'Just share with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
-
-
-
-http://images.websnapr.com/?size=size&key=76l78ieSa5UB&url=url
-
-<script type="text/javascript">
-function callPublish(msg, attachment, action_link) {
-  FB.ensureInit(function () {
-    FB.Connect.streamPublish('', attachment, action_link);
-  });
-}</script>
-<input type="button" onclick="callPublish('',{'name':'Link Title','href':'<%= link_to @short_url, @short_url, :class => "shortened" %>','description':'link text','media':[{'type':'image','src':'http://images.websnapr.com/?size=size&key=76l78ieSa5UB&url=http://coactlab.com/blog','href':'linkurl'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
+<input type="button" onclick="callPublish('',{'name':'this is the title','href':'<%= link_to @short_url, @short_url, :class => "shortened" %>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
+>
