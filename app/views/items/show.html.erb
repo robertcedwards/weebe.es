@@ -26,5 +26,5 @@ function callPublish(msg, attachment, action_link) {
     FB.Connect.streamPublish('', attachment, action_link);
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'this is the title','href':'<%= @short_url,:class => "shortened" %>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
+<input type="button" onclick="callPublish('',{'name':'this is the title','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 time with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
 >
