@@ -2097,3 +2097,194 @@ Rendering template within layouts/items
 Rendering items/new
 Rendered items/_form (0.1ms)
 Completed in 15ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:00:04) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.2ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:00:09) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 26ms (View: 17, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:01:49) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-07 01:01:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/Yellow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-07 01:04:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/Yellow.png" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:05:41) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:06:41) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:07:38) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:08:30) [POST]
+  Parameters: {"url"=>"http://web.mit.edu/eaglecad_v4.09/tutorial-eng.pdf", "short"=>"pdf"}
+
+ActiveRecord::StatementInvalid (Could not find table 'items'):
+  app/controllers/items_controller.rb:62:in `shorten'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (54.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:08:35) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:09:16) [POST]
+  Parameters: {"url"=>"http://www.frequency-decoder.com/2006/10/25/link-preview-v2/", "short"=>"link-preview-v2"}
+
+ActiveRecord::StatementInvalid (Could not find table 'items'):
+  app/controllers/items_controller.rb:62:in `shorten'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (84.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:11:34) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:11:52) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:12:00) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:12:32) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:13:48) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.7ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:14:05) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:14:25) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:14:39) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:14:43) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:14:50) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:15:20) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:15:27) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:18:39) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-07 01:19:46) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]

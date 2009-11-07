@@ -6,7 +6,7 @@ body {
 	background:url('/images/bg.gif') no-repeat bottom left;
 	padding: 0;
 	margin: 0;
-	line-height: 10px;
+	overflow: hidden;
 
 }
 
@@ -115,13 +115,15 @@ display: block; /*--Keeps the small tag on its own line--*/
 	-moz-border-radius-bottomright: 25px;
 	-moz-border-radius-bottomleft: 25px;
 -webkit-border-radius-bottomright: 25px;
+-webkit-border-radius-bottomleft: 25px;
+
 border: 1px solid #000;
 
 
 }
 #poweredby {
-position: fixed; 
-  bottom: 0;
+position: absolute; 
+  bottom: 5px;
   right: 0;
 }
 #wrapper {
