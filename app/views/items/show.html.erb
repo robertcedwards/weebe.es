@@ -5,8 +5,7 @@
 <p><strong>Share to:<%= link_to " Twitter: </strong>", @twitter_url, :class => "shortened" %><br>
 <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
 <script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
-<a name="fb_share" type="button_count" share_url="<%= @short_url%>" href="http://www.facebook.com/sharer.php">Share on your wall</a>
-<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+<a name="fb_share" type="button_count" share_url="<%= @short_url%>" href="http://www.facebook.com/sharer.php">Share on your wall</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <p>Or share to your Facebook Fan Page:</p>
 <span>Click Connect to login to weebe.es and allow permissions to stream</span>
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
