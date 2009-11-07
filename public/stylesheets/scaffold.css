@@ -6,12 +6,14 @@ body {
 	background:url('/images/bg.gif') no-repeat bottom left;
 	padding: 0;
 	margin: 0;
+	line-height: 10px;
+
 }
 
 body, p, ol, ul, td, input {
   font-family: helvetica, arial, sans-serif;
   font-size:   18px;
-  line-height: 24px;
+	line-height: 25px;
 }
 
 
@@ -41,7 +43,6 @@ p.error {
 label
 {text-align:left;
 
-  float: left;
 }
 
 form input.forminput {
@@ -104,13 +105,18 @@ display: block; /*--Keeps the small tag on its own line--*/
 #info {
 	background: url(/images/transpBlack.png);
 	position: relative;
-	top: 0px;
+	text-align: center;
+	top:0px;
 	width: 100%;
 	height:auto;
 	color: white;
 	z-index: 6000;
 	padding-bottom: 5px;
-		padding-top: 5px;
+	-moz-border-radius-bottomright: 25px;
+	-moz-border-radius-bottomleft: 25px;
+-webkit-border-radius-bottomright: 25px;
+border: 1px solid #000;
+
 
 }
 #poweredby {
@@ -121,26 +127,25 @@ position: fixed;
 #wrapper {
 background: url(/images/Yellow.png);
 position: relative;   /* positions content on top of distance */
-text-align: left;     /* horizontal centering hack for IE */
+text-align: center;     /* horizontal centering hack for IE */
 height: auto;         /* required - desired height */
-width: 40em;          /* required - desired width */
-margin: 65px auto;       /* required */
+width: 75%;          /* required - desired width */
+margin: 20px auto;       /* required */
 clear: left;
 -moz-border-radius: 25px;
 -webkit-border-radius: 25px;
 border: 1px solid #000;
 padding: 10px;
-padding-bottom: 20px;
+padding-bottom: 35px;
 }
 #distance { 
-	margin-bottom: -5em; /* half of content height */
 	width: 1px;           /* required to "hide" distance div */
 	float: left;          /* required */
 
 }
 #fbbox{
 position: relative;
-text-align: right;
+text-align: center;
 height: auto;
 }
 a.button {
