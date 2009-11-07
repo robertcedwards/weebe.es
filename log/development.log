@@ -1,0 +1,826 @@
+# Logfile created on Fri Nov 06 20:07:00 -0800 2009
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:07:02) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 214ms (View: 213, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:07:49) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:19:52) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:20:35) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:20:46) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:21:17) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:22:06) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:22:37) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:22:56) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:23:27) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:23:56) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:24:57) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:25:09) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:25:33) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:29:25) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:29:44) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:36:59) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:38:18) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 27ms (View: 16, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:38:54) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:40:33) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:40:52) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:41:26) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:41:35) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:42:07) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:03) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:19) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:32) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:39) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:42) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:48) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:53) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:43:57) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:44:04) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:44:10) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:44:26) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:44:33) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:44:43) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 73ms (View: 72, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:44:48) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:01) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:07) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:13) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:19) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:27) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:32) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:37) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:45:42) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:46:51) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:47:06) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:47:16) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:47:46) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:48:35) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:48:54) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:48:56) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:49:02) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:49:10) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.8ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:49:50) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (1.2ms)
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:49:57) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:50:40) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:50:48) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.7ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:51:00) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:51:22) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:51:33) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:52:34) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:58:16) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:59:42) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:59:50) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:59:54) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 20:59:55) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:00:09) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:00:28) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:00:42) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:00:47) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:01:49) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:02:22) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:02:34) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:03:16) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:03:17) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:03:24) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.6ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:03:33) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:04:08) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:04:18) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:04:32) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:04:47) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:05:23) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:05:28) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:05:39) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 71ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:05:43) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:05:50) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:05:59) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:06:07) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:06:24) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:07:10) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:07:26) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:08:04) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:08:12) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:08:21) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:08:46) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:09:07) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:09:15) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:09:31) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:09:51) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:10:19) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:11:02) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:11:08) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:11:21) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:11:30) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:11:39) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:11:59) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:12:28) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:12:48) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:13:13) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:13:43) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:14:02) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:14:16) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:14:26) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:15:15) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:15:43) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-06 21:15:58) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]

@@ -47,6 +47,8 @@ label
 form input.forminput {
   text-align:left;
   width: 50%;
+  margin-left: 5px;
+  padding-top: 5px;
 }
 
 #errorExplanation {
@@ -101,16 +103,15 @@ display: block; /*--Keeps the small tag on its own line--*/
 }
 #info {
 	background: url(/images/transpBlack.png);
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 0px;
 	width: 100%;
-	height: 25px;
-	text-align: center;
+	height:auto;
 	color: white;
-	font-size: 50px;
 	z-index: 6000;
-	
+	padding-bottom: 5px;
+		padding-top: 5px;
+
 }
 #poweredby {
 position: fixed; 
@@ -123,7 +124,7 @@ position: relative;   /* positions content on top of distance */
 text-align: left;     /* horizontal centering hack for IE */
 height: 23em;         /* required - desired height */
 width: 40em;          /* required - desired width */
-margin: 50px auto;       /* required */
+margin: 65px auto;       /* required */
 clear: left;
 -moz-border-radius: 25px;
 -webkit-border-radius: 25px;
@@ -132,11 +133,14 @@ padding: 10px;
 }
 #distance { 
 	margin-bottom: -5em; /* half of content height */
-	background: red;      /* temporary - used to see div */
 	width: 1px;           /* required to "hide" distance div */
-	height: 50px;          /* required */
 	float: left;          /* required */
 
+}
+#fbbox{
+position: relative;
+text-align: right;
+height: auto;
 }
 a.button {
     background: transparent url('/images/bg_button_a.gif') no-repeat scroll top right;

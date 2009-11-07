@@ -2,7 +2,7 @@
 # All rights reserved.
 # BSD License. See LICENSE.txt for details.
 
-RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
+RAILS_GEM_VERSION = '2.3.4' unless defined? RAILS_GEM_VERSION
 
 CORTITO_VERSION = '1.4.2'
 
