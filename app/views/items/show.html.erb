@@ -13,18 +13,7 @@
 <script type="text/javascript">function do_post(){FB.Connect.streamPublish('',[{'name':'<%= @short%>','href':'<%= @short_url%>','description':'Just shared <%= @short%> using weebe.es'}],[{'text':'Shared 122 times with weeb.es','href':'http://weebe.es/facebook'}],null,"Just used weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post(); return false;"><span>Post</span></a>
 
-<script type="text/javascript">
-function callPublish(msg, attachment, action_link) {
-  FB.ensureInit(function () {
-    FB.Connect.streamPublish('', attachment, action_link);
-  });
-}</script>
 
-<script type="text/javascript">
-function callPublish(msg, attachment, action_link,) {
-  FB.ensureInit(function () {
-    FB.Connect.streamPublish();
-  });
-}</script>
 
-<input type="button" onclick="callPublish('',{'name':'<%= @item.shortened%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]);return false;" value="Preview Dialog" />
+<script type="text/javascript">function callPublish(){FB.Connect.streamPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared with weebe.es'},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}]null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
+<a href="#" class="button" onclick="callPublish(); return false;"><span>Post to Fan Page</span></a>
