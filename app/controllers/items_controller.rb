@@ -70,6 +70,7 @@ class ItemsController < ApplicationController
 
     respond_to do |format|
       format.html do
+        @long_url = ["http://", @host, "/", @item].join
         @short_url = ["http://", @host, "/", @item.shortened].join
         @twitter_url = ["http://twitter.com/home?status=", @short_url].join
         newline = "%0D%0A"
