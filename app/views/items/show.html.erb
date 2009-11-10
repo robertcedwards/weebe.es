@@ -21,4 +21,4 @@ function callPublish(msg, attachment, action_link) {
     FB.Connect.streamPublish('', attachment, action_link,target_id);
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},null,'90537584641',null,null,false,null);return false;" value="Preview Dialog" />
+<input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},null);return false;" value="Preview Dialog" />
