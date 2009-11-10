@@ -16,7 +16,7 @@
 
 
 <script type="text/javascript">
-function callPublish(msg, attachment, action_link,target_id,actor_id) {
+function callPublish(msg, attachment, action_link,target_id,'','',''actor_id) {
   FB.ensureInit(function () {
     FB.Connect.streamPublish('', attachment, action_link,target_id,'','','',actor_id);
   });
