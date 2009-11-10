@@ -2378,3 +2378,64 @@ Rendering template within layouts/items
 Rendering items/new
 Rendered items/_form (0.1ms)
 Completed in 9ms (View: 8, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-08 20:26:06) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.5ms)
+Completed in 77ms (View: 75, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-08 20:26:25) [POST]
+  Parameters: {"url"=>"http://asdddddddddd.com", "short"=>"asda08927gefuvjh"}
+
+ActiveRecord::StatementInvalid (Could not find table 'items'):
+  app/controllers/items_controller.rb:62:in `shorten'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (102.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-10 13:07:15) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.3ms)
+Completed in 108ms (View: 107, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-10 13:07:21) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-10 13:22:51) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-10 13:23:46) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Rendered items/_form (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-10 13:23:50) [GET]
+  Parameters: {"url"=>"http://betterexplained.com/articles/the-single-page-javascript-overview/"}
+
+ActiveRecord::StatementInvalid (Could not find table 'items'):
+  app/controllers/items_controller.rb:62:in `shorten'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
