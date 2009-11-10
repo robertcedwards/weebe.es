@@ -9,32 +9,8 @@
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
 <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
 <fb:name uid="loggedinuser" useyou="false" linked="true"></fb:name><br>
-<script type="text/javascript">function facebook_prompt_permission(permission, callbackFunc) {
-  ensure_init(function() {
-    //check is user already granted for this permission or not
-    FB.Facebook.apiClient.users_hasAppPermission(permission,
-     function(result) {
-        // prompt offline permission
-        if (result == 0) {
-            // render the permission dialog
-            FB.Connect.showPermissionDialog(permission, callbackFunc,true);
-        } else {
-            // permission already granted.
-            callbackFunc(true);
-        }
-    });
-  });
-}</script>
-<a href="#" class="button" onclick="facebook_prompt_permission('publish_stream', function(accepted) {
-            if(accepted) {
-                //do something, I do an AJAX call here to submit the users status as that is the extended permission I am asking for....
-            }
-    });"><span>Add Permissions</span></a>
-
-
-
-
-
+<script type="text/javascript">function do_perm(){FB.Connect.showPermissionDialog("publish_stream",true);}</script>
+<a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',[{'name':"<%= @short_url%>",'href':"<%= @short_url%>",'description':'Just shared with weebe.es'}],[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 
