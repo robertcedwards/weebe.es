@@ -16,9 +16,9 @@
 
 
 <script type="text/javascript">
-function callPublish(msg, attachment, action_link,target_id,actor_id) {
+function callPublish(msg, attachment, action_link,target_id,user_message_prompt,callback,auto_publish,actor_id) {
   FB.ensureInit(function () {
-    FB.Connect.streamPublish('', attachment, action_link,target_id,actor_id);
+    FB.Connect.streamPublish('', attachment, action_link,target_id,user_message_prompt,callbackauto_publish,actor_id);
   });
 }</script>
 <input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},null,'90537584641','90537584641');return false;" value="Preview Dialog" />
