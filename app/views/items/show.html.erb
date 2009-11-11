@@ -4,7 +4,7 @@
 
 <p><strong>Share to:<%= link_to " Twitter </strong>", @twitter_url, :class => "shortened" %><br></p>
 <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
-<script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
+<script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b",{"ifUserConnected":loadFriends});</script>
 <a name="fb_share" type="button_count" share_url="<%= @short_url%>" href="http://www.facebook.com/sharer.php">Share on your wall</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
 <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
@@ -15,15 +15,14 @@
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 <div id="friends"></div>
 <script type="text/javascript"> 
-
-function loadFriends(uid) {
+function loadFriends('686476344') {
 
     FB.XFBML.Host.autoParseDomTree = false;
     FB.XFBML.Host.addElement(new FB.XFBML.Name(document.getElementById("me")));
 
     FB_RequireFeatures(["CanvasUtil"], function(){  FB.CanvasClient.startTimerToSizeToContent(); });
     var api = FB.Facebook.apiClient;
-    api.fql_query("SELECT page_id FROM page_admin WHERE  uid =686476344", function(result, ex) {
+    api.fql_query("SELECT page_id FROM page_admin WHERE  uid ='686476344'", function(result, ex) {
 
         data = "<table>";
         for (i=0;i<result.length;i++)
@@ -37,6 +36,5 @@ function loadFriends(uid) {
     });
 }
 
-FB.init("c5d184ee00b43fbf13a20a1c46479a0b", "xd_receiver.php",{"ifUserConnected":loadFriends});
 
 </script>
