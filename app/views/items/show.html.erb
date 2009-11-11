@@ -11,7 +11,7 @@
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 <script type="text/javascript">function do_list_page(){FB.Facebook.apiClient.fql_query("SELECT page_id FROM page_admin WHERE uid =686476344",
                                  function(rows) {
-                                   alert("Hello, " + rows[0].name);
+                                   print("Hello, " + rows[0].name);
                                  });
 }</script>
 <a href="#" class="button" onclick="do_list_page(); return false;"><span>Post to your Fan Page</span></a>
