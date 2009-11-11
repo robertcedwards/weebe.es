@@ -9,14 +9,14 @@
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
 <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
 <fb:name uid="loggedinuser" useyou="false" linked="true"></fb:name><br>
-<script type="text/javascript">function do_perm(){FB.Connect.showPermissionDialog("publish_stream",true,[90537584641]);}</script>
+<script type="text/javascript">function do_perm(){FB.Connect.showPermissionDialog("publish_stream",true);}</script>
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',[{'name':"<%= @short_url%>",'href':"<%= @short_url%>",'description':'Just shared with weebe.es'}],[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 <script type="text/javascript">
-function callPublish(msg, attachment, action_link, actor_id) {
+function callPublish(msg, attachment, action_link, target_id) {
   FB.ensureInit(function () {
-    FB.Connect.streamPublish('', attachment, action_link, actor_id), ;
+    FB.Connect.streamPublish('', attachment, action_link, target_id), ;
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @item%>','href':'<%= @short_url%>'}]},null,null,false,'90537584641');return false;" value="Preview Dialog" />
+<input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @item%>','href':'<%= @short_url%>'}]},null,"90537584641");return false;" value="Preview Dialog" />
