@@ -4,7 +4,8 @@
 
 <p><strong>Share to:<%= link_to " Twitter </strong>", @twitter_url, :class => "shortened" %><br></p>
 <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
-<script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
+<script type="text/javascript">FB.init({ apiKey: 'c5d184ee00b43fbf13a20a1c46479a0b' });
+</script>
 <a name="fb_share" type="button_count" share_url="<%= @short_url%>" href="http://www.facebook.com/sharer.php">Share on your wall</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
 <fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
