@@ -12,7 +12,7 @@
 <script type="text/javascript">function do_list_page(){FB.Facebook.apiClient.fql_query("SELECT page_id FROM page_admin WHERE uid =686476344",
                                  function(result, ex) {
                                  data = "<table>";
-                                 for (i=0,i<result.length;i++)
+                                 for (i=0;i<result.length;i++)
                                  {
                                  data += "<tr><td><input type='checkbox' value='"+result[i].page_id+"' name='pages[]' id = 'page"+result[i].page_id+"' /></td><td>" + result[i].page_id"</td></tr>";
                                  }
