@@ -21,13 +21,13 @@
 FB.Connect.get_status().waitUntilReady(function(status) {
    switch(status) {
    case FB.ConnectState.connected:
-<fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic><br>
-<fb:name uid="loggedinuser" useyou="false" linked="true"></fb:name><br>
-     ;
+<fb:profile-pic uid="loggedinuser" size="square" facebook-logo="true"></fb:profile-pic>
+<fb:name uid="loggedinuser" useyou="false" linked="true"></fb:name>
+     break;
    case FB.ConnectState.appNotAuthorized:
    case FB.ConnectState.userNotLoggedIn:
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>
-     ;
+     break;
    }
  });
 </script>
