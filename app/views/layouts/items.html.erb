@@ -4,37 +4,11 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Weebe.es - The Social Link Shortener- Coactlab</title>
   <%= stylesheet_link_tag 'scaffold' %>
-  <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script>
+  <script src="http://static.ak.fbcdn.net/connect/en_US/core.js"></script>
   
 </head>
 <fb:iframe src="http://fb.adchap.com/showad.php?adchap_network=facebook&earn_id=3069&bdcolor=c6c6c6&bgcolor=f5f5f5&textcolor=000000&titlecolor=000000" width="646" height="33" frameborder="0" scrolling="no"></fb:iframe>
 	<body>
-<script type="text/javascript"> 
-function loadFriends(uid) {
-
-    FB.XFBML.Host.autoParseDomTree = false;
-    FB.XFBML.Host.addElement(new FB.XFBML.Name(document.getElementById("me")));
-
-    FB_RequireFeatures(["CanvasUtil"], function(){  FB.CanvasClient.startTimerToSizeToContent(); });
-    var api = FB.Facebook.apiClient;
-    api.fql_query("SELECT uid, first_name, last_name FROM user WHERE  uid IN (SELECT uid2 FROM friend WHERE uid1 = "+uid+") order by first_name", function(result, ex) {
-
-        data = "<table>";
-        for (i=0;i<result.length;i++)
-        {
-            data += "<tr><td><input type='checkbox' value='"+result[i].uid+"' name='friends[]' id = 'friend"+result[i].uid+"' /></td><td>"+ result[i].first_name + " " + result[i].last_name+"</td></tr>";
-        }
-        data +="</table>";
-        $('#friends').css({"overflow-y":"scroll","height":"200px","width":"300px","border":"1px solid #ccc"});
-        $('#friends').html( data);
-
-    });
-}
-
-
-</script>
-<script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");
-</script>
 
 		<div id="info">
 		<a name="fb_share" type="button_count" share_url="weebe.es" href="http://www.facebook.com/sharer.php">Share Weebe.es on Facebook</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>  | add the bookmarklet<%= link_to image_tag("weebees.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> to your toolbar &uarr; to share any website with weebe.es</div>
@@ -47,7 +21,7 @@ function loadFriends(uid) {
 </div>
 
 <div id="fbbox">
-<fb:fan profile_id="327364725313" stream="0" connections="0" width="200" height="70" ></fb:fan>
+<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script><script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script><fb:fan profile_id="327364725313" stream="0" connections="0" width="200" height="70" ></fb:fan>
 </div>
 
 <script type="text/javascript" charset="utf-8">
