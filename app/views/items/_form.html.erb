@@ -1,3 +1,17 @@
 Hello <span id="me" uid="loggedinuser" useyou='false'></span> And here is your page list<br/>
 <div id="friends"></div>
 
+<script type="text/javascript">function do_loadPages(){FB.Facebook.apiClient.fql_query("SELECT page_id FROM page_admin WHERE uid =686476344",
+                                 function(result, ex) {
+                                 data = "<table>";
+                                 for (i=0;i<result.length;i++)
+                                 {
+                                 	data += "<tr><td><input type='checkbox' value='"+result[i].page_id+"' name='pages[]' id = 'page"+result[i].page_id+"' /></td><td>" + result[i].page_id + " </td> </tr>";
+                                 }
+        						 data +="</table>";
+        						 $('#friends').css({"overflow-y":"scroll","height":"200px","width":"300px","border":"1px solid #ccc"});
+        						 $('#friends').html( data);
+									                                 });
+ FB.init("c5d184ee00b43fbf13a20a1c46479a0b", "xd_receiver.php",{"ifUserConnected":do_loadPages});
+}</script>
+<a href="#" class="button" onclick="do_loadPages(); return false;"><span>Post to your Fan Page</span></a>

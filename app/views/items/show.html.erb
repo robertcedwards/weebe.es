@@ -1,4 +1,3 @@
-<%= render :partial => "form" %>
 <p><%= link_to @short_url, @short_url, :class => "shortened" %><br> now redirects to <br>	<%= link_to @item.original, @item.original %></p>
 <p><strong>Share to:<%= link_to " Twitter </strong>", @twitter_url, :class => "shortened" %><br></p>
 <a name="fb_share" type="button_count" share_url="<%= @short_url%>" href="http://www.facebook.com/sharer.php">Share on your wall</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
@@ -9,17 +8,3 @@
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"327364725313");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
-<script type="text/javascript">function do_loadPages(){FB.Facebook.apiClient.fql_query("SELECT page_id FROM page_admin WHERE uid =686476344",
-                                 function(result, ex) {
-                                 data = "<table>";
-                                 for (i=0;i<result.length;i++)
-                                 {
-                                 	data += "<tr><td><input type='checkbox' value='"+result[i].page_id+"' name='pages[]' id = 'page"+result[i].page_id+"' /></td><td>" + result[i].page_id + " </td> </tr>";
-                                 }
-        						 data +="</table>";
-        						 $('#friends').css({"overflow-y":"scroll","height":"200px","width":"300px","border":"1px solid #ccc"});
-        						 $('#friends').html( data);
-									                                 });
- FB.init("c5d184ee00b43fbf13a20a1c46479a0b", "xd_receiver.php",{"ifUserConnected":do_loadPages});
-}</script>
-<a href="#" class="button" onclick="do_loadPages(); return false;"><span>Post to your Fan Page</span></a>
