@@ -23,12 +23,12 @@ function loadFriends(uid) {
 
     FB_RequireFeatures(["CanvasUtil"], function(){  FB.CanvasClient.startTimerToSizeToContent(); });
     var api = FB.Facebook.apiClient;
-    api.fql_query("SELECT uid, first_name, last_name FROM user WHERE  uid IN (SELECT uid2 FROM friend WHERE uid1 = "+uid+") order by first_name", function(result, ex) {
+    api.fql_query("SELECT page_id FROM page_admin WHERE  uid ='loggedinuser', function(result, ex) {
 
         data = "<table>";
         for (i=0;i<result.length;i++)
         {
-            data += "<tr><td><input type='checkbox' value='"+result[i].uid+"' name='friends[]' id = 'friend"+result[i].uid+"' /></td><td>"+ result[i].first_name + " " + result[i].last_name+"</td></tr>";
+            data += "<tr><td><input type='checkbox' value='"+result[i].uid+"' name='pages[]' id = 'page"+result[i].uid+"' /></td><td>"+ result[i].first_name + " " + result[i].last_name+"</td></tr>";
         }
         data +="</table>";
         $('#friends').css({"overflow-y":"scroll","height":"200px","width":"300px","border":"1px solid #ccc"});
