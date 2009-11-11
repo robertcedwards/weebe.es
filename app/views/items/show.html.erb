@@ -13,9 +13,7 @@
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"327364725313");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
-<div id="profile_pics"></div>
 <script type="text/javascript">
-var widget_div = document.getElementById("profile_pics");
 FB.ensureInit(function () {
   FB.Facebook.get_sessionState().waitUntilReady(function() {
   FB.Facebook.apiClient.fql_query("SELECT page_id, pic FROM page_admin WHERE uid=loggedinuser",
@@ -23,10 +21,6 @@ FB.ensureInit(function () {
                                    alert("Hello, " + rows[0].name);
                                  });
 
-  
-  
-  
-  
-  });
+   });
 });
 </script>
