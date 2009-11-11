@@ -14,3 +14,23 @@
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"327364725313");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 <script type="text/javascript">
+<div id="profile_pics"></div>
+<script type="text/javascript">
+var widget_div = document.getElementById("profile_pics");
+FB.ensureInit(function () {
+  FB.Facebook.get_sessionState().waitUntilReady(function() {
+  FB.Facebook.apiClient.friends_get(null, function(result) {
+    var markup = "";
+    var num_friends = result ? Math.min(5, result.length) : 0;
+    if (num_friends > 0) {
+      for (var i=0; i<num_friends; i++) {
+        markup += 
+          '<fb:profile-pic size="square" uid="'+result[i]+'" facebook-logo="true"></fb:profile-pic>';
+      }
+    }
+    widget_div.innerHTML = markup;
+    FB.XFBML.Host.parseDomElement(widget_div);
+  });
+  });
+});
+</script>
