@@ -14,9 +14,9 @@
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',[{'name':"<%= @short_url%>",'href':"<%= @short_url%>",'description':'Just shared with weebe.es'}],[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"91713273438");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 <script type="text/javascript">
-function callPublish(msg, attachment, action_link) {
+function callPublish(msg, attachment, action_link, target_id) {
   FB.ensureInit(function () {
-    FB.Connect.streamPublish('', attachment, action_link);
+    FB.Connect.streamPublish('', attachment, action_link, target_id);
   });
 }</script>
-<input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @item%>','href':'<%= @short_url%>'}]},null);return false;" value="Preview Dialog" />
+<input type="button" onclick="callPublish('',{'name':'<%= @short_url%>','href':'<%= @short_url%>','description':'Just shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @long_url%>','href':'<%= @short_url%>'}]},null,'90537584641');return false;" value="Preview Dialog" />
