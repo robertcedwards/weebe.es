@@ -14,7 +14,7 @@
                                  data = "<table>";
                                  for (i=0;i<result.length;i++)
                                  {
-                                 	data += "<tr><td><input type='checkbox' value='"+result[i].page_id+"' name='pages[]' id = 'page"+result[i].page_id+"' /></td><td>" + result[i].name + " </td> </tr>";
+                                 	data += "<tr><td><input type='checkbox' value='"+result[i].page_id+"' name='pages[]' id = 'page"+result[i].page_id+"' /></td><td>" + result[i].page_id + " </td> </tr>";
                                  }
         						 data +="</table>";
         						 $('#friends').css({"overflow-y":"scroll","height":"200px","width":"300px","border":"1px solid #ccc"});
