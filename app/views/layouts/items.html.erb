@@ -9,8 +9,6 @@
 </head>
 <fb:iframe src="http://fb.adchap.com/showad.php?adchap_network=facebook&earn_id=3069&bdcolor=c6c6c6&bgcolor=f5f5f5&textcolor=000000&titlecolor=000000" width="646" height="33" frameborder="0" scrolling="no"></fb:iframe>
 	<body>
-<script type="text/javascript">FB.init({ apiKey: 'c5d184ee00b43fbf13a20a1c46479a0b' },{"ifUserConnected":loadFriends});
-</script>
 <script type="text/javascript"> 
 
 function loadFriends(uid) {
@@ -36,6 +34,9 @@ function loadFriends(uid) {
 
 
 </script>
+<script type="text/javascript">FB.init({ apiKey: 'c5d184ee00b43fbf13a20a1c46479a0b' },{"ifUserConnected":loadFriends});
+</script>
+
 		<div id="info">
 		<a name="fb_share" type="button_count" share_url="weebe.es" href="http://www.facebook.com/sharer.php">Share Weebe.es on Facebook</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>  | add the bookmarklet<%= link_to image_tag("weebees.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> to your toolbar &uarr; to share any website with weebe.es</div>
 
