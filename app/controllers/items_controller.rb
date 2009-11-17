@@ -106,7 +106,7 @@ private
     if params.has_key?(:reverse)
       render :text => @item.original
     else
-      render :text => @item.shortened
+      
     end
   end
 
