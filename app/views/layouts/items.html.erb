@@ -2,19 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <meta name="title" content="Weebe.es - Facebook Link Shortener & Sharer" /> <meta name="description" content="An easy way to share links to your Facebook Profile and Pages" /> <link rel="image_src" href="http://www.onjd.com/design05/images/PH2/WableAFC205.jpg" />
+  <meta name="title" content="Weebe.es - Facebook Link Shortener & Sharer" /> <meta name="description" content="An easy way to share links to your Facebook Profile and Pages" /> <link rel="image_src" href="http://coactlab.com/screenshots/galleries/screenshots/523c06be1f8a01467a155cbd5950baa1.png" />
   <title>Weebe.es - Facebook Link Shortener & Sharer</title>
   <%= stylesheet_link_tag 'scaffold' %>
 </head>
 	<body>
 
 		<div id="info">
-		<fb:share-button href="http://apps.facebook.com/example" type="box_count"></fb:share-button>
 		<a name="fb_share" type="button_count" share_url="weebe.es" href="http://www.facebook.com/sharer.php">Share Weebe.es on Facebook</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>  | add the bookmarklet<%= link_to image_tag("weebees.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> to your toolbar &uarr; to share any website with weebe.es</div>
 <div id="distance"></div>
 <div id="wrapper">
 <h1><span><a href="/">Weebe.es</a></span><br>Facebook Link Shortener & Sharer<small><a href="http://coactlab.com/blog"> By Coactlab</a></small>
-<h2>Share to your<a href ="http://www.facebook.com">Facebook Profile</a> or your<a href="http://www.facebook.com/advertising/?pages">Facebook Pages</a></h2>
+<h2>Share to:</h2>
+
 <%= yield %>
 </div>
 <div id="fbbox">
