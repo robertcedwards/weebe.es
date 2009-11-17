@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Weebe.es - The Social Link Shortener- Coactlab</title>
+  <title>Weebe.es - Facebook Link Shortener & Sharer</title>
   <%= stylesheet_link_tag 'scaffold' %>
 </head>
 	<body>
@@ -12,8 +12,8 @@
 		<a name="fb_share" type="button_count" share_url="weebe.es" href="http://www.facebook.com/sharer.php">Share Weebe.es on Facebook</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>  | add the bookmarklet<%= link_to image_tag("weebees.png",:border=>0), "javascript:location.href='http://" + @host + "/?url='+encodeURIComponent(location.href);" %> to your toolbar &uarr; to share any website with weebe.es</div>
 <div id="distance"></div>
 <div id="wrapper">
-<h1><span><a href="/">Weebe.es</a></span><br> The Facebook Link Shortener & Sharer<small><a href="http://coactlab.com/blog"> By Coactlab</a></small>
-<h2>Share to  <a href="http://www.twitter.com/">Twitter</a>, <a href ="http://www.facebook.com">Facebook,</a> & <a href="http://www.facebook.com/advertising/?pages">Facebook Pages</a></h2>
+<h1><span><a href="/">Weebe.es</a></span><br>Facebook Link Shortener & Sharer<small><a href="http://coactlab.com/blog"> By Coactlab</a></small>
+<h2>Share to your<a href ="http://www.facebook.com">Facebook Profile</a> or your<a href="http://www.facebook.com/advertising/?pages">Facebook Pages</a></h2>
 <%= yield %>
 </div>
 <div id="fbbox">
