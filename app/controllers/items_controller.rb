@@ -106,7 +106,7 @@ private
     if params.has_key?(:reverse)
       render :text => @item.original
     else
-      render :text => [ @host, "/", @item.shortened].join
+      render :text => [ "http://", @host, "/", @item.shortened].join
     end
   end
 
