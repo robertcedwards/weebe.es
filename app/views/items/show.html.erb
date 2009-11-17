@@ -1,6 +1,6 @@
 <p><small><%= link_to @short_url %></small><br> now redirects to <br>	<%= link_to @item.original, @item.original %></p>
 
-<p><%= link_to @short_url, @short_url, :class => "shortened" %><br> now redirects to <br>	<%= link_to @item.original, @item.original %></p>
+<p><%= link_to @short_url, :class => "shortened" %><br> now redirects to <br>	<%= link_to @item.original, @item.original %></p>
 <p><strong>Share to:<%= link_to " Twitter </strong>", @twitter_url, :class => "shortened" %><br></p>
 <a name="fb_share" type="button_count" share_url="<%= @short_url%>" href="http://www.facebook.com/sharer.php">Share on your wall</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
 <fb:login-button v="2" onclicksize="medium">Connect</fb:login-button><br>

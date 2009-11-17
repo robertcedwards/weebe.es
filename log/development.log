@@ -2453,3 +2453,15 @@ Rendering template within layouts/items
 Rendering items/new
 Rendered items/_form (0.1ms)
 Completed in 3ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-17 10:47:17) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Completed in 71ms (View: 70, DB: 0) | 200 OK [http://0.0.0.0/]
+
+
+Processing ItemsController#shorten (for 127.0.0.1 at 2009-11-17 10:47:17) [GET]
+Rendering template within layouts/items
+Rendering items/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/]
