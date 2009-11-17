@@ -71,7 +71,7 @@ class ItemsController < ApplicationController
     respond_to do |format|
       format.html do
         @long_url = [@item.original]
-        @short_url = ["http://", @host, "/", @item.shortened].join
+        @short_url = [@host, "/", @item.shortened].join
         @twitter_url = ["http://twitter.com/home?status=", @short_url].join
         newline = "%0D%0A"
         @email_url = ["mailto:?subject=Check out this URL shortened by cortito",
