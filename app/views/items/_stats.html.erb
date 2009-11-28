@@ -1,25 +1,10 @@
-<script type="text/javascript">function loadStats(){FB.Facebook.apiClient.fql_query("SELECT share_count, like_count, comment_count, total_count FROM link_stat WHERE url=<%= @item.original%>");}
+<script type="text/javascript">function loadStats(){
+ FB.Facebook.apiClient.fql_query("SELECT name, pic FROM user WHERE uid=211031",
+                                 function(rows) {
+                                   alert("Hello, " + rows[0].name);
+                                 });
+
+
+FB.Facebook.apiClient.fql_query("SELECT share_count, like_count, comment_count, total_count FROM link_stat WHERE url=<%= @item.original%>");}
  </script>
 <a href="#" class="button" onclick="loadStats(); return false;"><span>Load Stats</span></a>
-
-<script type="text/javascript">
-      function handleSessionResponse(response) {
-        // if we dont have a session, just hide the user info
-        if (!response.session) {
-          clearDisplay();
-          return;
-        }
- 
-        // if we have a session, query for the user's profile picture and name
-        FB.api(
-          {
-            method: 'fql.query',
-            query: 'SELECT name, pic FROM profile WHERE id=' + FB.getSession().uid
-          },
-          function(response) {
-            var user = response[0];
-            $('#user-info').html('<img src="' + user.pic + '">' + user.name).show('fast');
-          }
-        );
-      }
-      </script>
