@@ -1,6 +1,8 @@
+<script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US" type="text/javascript"></script><script type="text/javascript">FB.init("c5d184ee00b43fbf13a20a1c46479a0b");</script>
+
 <script type="text/javascript">function loadStats(){
  FB.Facebook.apiClient.fql_query("SELECT name, pic FROM user WHERE uid=211031",
-                                 function(rows) {
+                                 function(loadStats) {
                                    alert("Hello, " + rows[0].name);
                                  });
 
