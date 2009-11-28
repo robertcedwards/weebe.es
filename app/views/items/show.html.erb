@@ -1,3 +1,4 @@
+<%= render :partial => "form" %>
 <p><small><a href="<%=@short_url%>">weebe.es/<%=@short_url%></a><br> now redirects to <br>	<%= link_to @item.original, @item.original %></p>
 <p><strong>Share to:<%= link_to " Twitter </strong>", @twitter_url, :class => "shortened" %><br></p>
 <a name="fb_share" type="button_count" share_url="http://weebe.es/<%= @item.shortened%>" href="http://www.facebook.com/sharer.php">Share on your wall</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
@@ -8,4 +9,3 @@
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
 <script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',{'name':'weebe.es/<%= @short_url%>','href':'<%= @short_url%>','description':'Just shortened & shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @item.original%>','href':'http://weebe.es/<%= @short_url%>'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"327364725313");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
-<%= render :partial => "stats" %>
