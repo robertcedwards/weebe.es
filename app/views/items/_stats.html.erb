@@ -5,6 +5,5 @@
                                  });
 
 
-FB.Facebook.apiClient.fql_query("SELECT share_count, like_count, comment_count, total_count FROM link_stat WHERE url=<%= @item.original%>");}
  </script>
 <a href="#" class="button" onclick="loadStats(); return false;"><span>Load Stats</span></a>
