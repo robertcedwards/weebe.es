@@ -1,4 +1,4 @@
-<script type="text/javascript">function loadStats(){FB.Facebook.apiClient.fql_query("SELECT share_count, like_count, comment_count, total_count FROM link_stat WHERE url=<%= @item.original%>");
+<script type="text/javascript">function loadStats(){FB.Facebook.apiClient.fql_query("SELECT share_count, like_count, comment_count, total_count FROM link_stat WHERE url="<%= @item.original%>"");
  FB.init("c5d184ee00b43fbf13a20a1c46479a0b", "xd_receiver.php",{"ifUserConnected":loadStats});
 }
  </script>
