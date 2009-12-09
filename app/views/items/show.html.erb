@@ -6,6 +6,6 @@
 <fb:name uid="loggedinuser" useyou="false" linked="true"></fb:name><br>
 <script type="text/javascript">function do_perm(){FB.Connect.showPermissionDialog("publish_stream",true);}</script>
 <a href="#" class="button" onclick="do_perm(); return false;"><span>Add Permissions</span></a>
-<script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',{'name':'weebe.es/<%= @short_url%>','href':'<%= @short_url%>','description':'Just shortened & shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @item.original%>','href':'http://weebe.es/<%= @short_url%>'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebees.heroku.com'}],null,"Just Shared a link with weebe.es",null,false,"327364725313");}</script>
+<script type="text/javascript">function do_post_page(){FB.Connect.streamPublish('',{'name':'http://weebe.es/<%= @short_url%>','href':'<%= @short_url%>','description':'Just shortened & shared using weebe.es','media':[{'type':'image','src':'http://images.websnapr.com/?size=S&key=76l78ieSa5UB&url=<%= @item.original%>','href':'http://weebe.es/<%= @short_url%>'}]},[{'text':'Shared 122 times with weebe.es','href':'http://weebe.es'}],null,"Just Shared a link with weebe.es",null,false,"327364725313");}</script>
 <a href="#" class="button" onclick="do_post_page(); return false;"><span>Post to your Fan Page</span></a>
 <%= render :partial => "stats" %>
