@@ -14,7 +14,7 @@ Hello <span id="me" uid="loggedinuser" useyou='false'></span> And here is your p
 									                                 });
  FB.init("c5d184ee00b43fbf13a20a1c46479a0b", "xd_receiver.php",{"ifUserConnected":do_loadPages});
 }</script>
-<a href="#" class="button" onclick="do_loadPages(); return false;"><span>Post to your Fan Page</span></a>
+<a href="#" class="button" onclick="do_loadPages(); return false;"><span>Share link to weebe.es Fan Page</span></a>
 
 <script type="text/javascript">function loadStats(){FB.Facebook.apiClient.fql_query("SELECT share_count, like_count, comment_count, total_count FROM link_stat WHERE url=<%= @item.original%>");}</script>
 <a href="#" class="button" onclick="loadStats(); return false;"><span>Load Stats</span></a>
